@@ -26,6 +26,9 @@ namespace _01_mainsubject
             //Console.Write("4 tatlı");
             #endregion
 
+
+
+
             #region Değişkenler
             //string name;
             //name = "rumeysa";
