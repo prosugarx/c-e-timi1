@@ -10,31 +10,10 @@ namespace _03_MakingDecisions
     {
         static void Main(string[] args)
         {
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            double number;
+            number = 32.56;
+            Console.WriteLine(number);
+            Console.Read();
 
         }
     }
