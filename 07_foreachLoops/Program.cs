@@ -51,13 +51,65 @@ namespace _07_foreachLoops
             //}
 
 
-            string word;
-            Console.Write("bir kelime ya da cümle giriniz:");
-            word = Console.ReadLine();
-            foreach (char c in word)
-            {
-                Console.WriteLine(c);
-            }
+            //string word;
+            //Console.Write("bir kelime ya da cümle giriniz:");
+            //word = Console.ReadLine();
+            //foreach (char c in word)
+            //{
+            //    Console.WriteLine(c);
+            //}
+
+
+
+
+
+
+            #endregion
+
+            //#region not ortalaması girme
+            //Console.WriteLine("******************************");
+            //Console.WriteLine();
+            //Console.WriteLine();
+            //Console.WriteLine();
+            //Console.WriteLine();
+            //Console.WriteLine("******************************");
+        
+            ////sınıftaki öğrenci sayısını alma
+
+            //Console.Write("lütfen öğrnci sayısını giriniz:");
+            //int studentCount = int.Parse(Console.ReadLine());
+
+            ////öğrenci isimleri ve notlarını alma
+            //string[] studentName=new string[studentCount];
+            //double[] studentNots=new double[studentCount];
+
+            //double totalNots = 0;
+
+            //for (int i = 0; i < studentCount; i++)
+            //{
+            //    Console.Write($"{i + 1}. öğrenci adını giriniz:");
+            //    studentName[i] = Console.ReadLine();
+
+            //    for (int j = 0; j < 3; j++)
+            //    {
+            //        Console.Write($"{studentName[i]} isimli öğrencinin {j + 1}. notunu giriniz:");
+            //        int nots = int.Parse(Console.ReadLine());
+            //        totalNots += nots;
+                    
+            //    }
+            //    studentNots[i] = totalNots / 3;
+            //    Console.WriteLine($"{studentName[i]} isimli öğrencinin ortalaması {studentNots[i]}");
+
+            //    if (studentNots[i] >= 50)
+            //    {
+            //        Console.WriteLine("geçti");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("kaldı");
+            //    }
+            //}
+
 
 
 
