@@ -66,7 +66,7 @@ namespace _07_foreachLoops
 
             #endregion
 
-            //#region not ortalaması girme
+            #region not ortalaması girme
             //Console.WriteLine("******************************");
             //Console.WriteLine();
             //Console.WriteLine();
