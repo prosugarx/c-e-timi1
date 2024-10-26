@@ -110,49 +110,49 @@ namespace _10_DataBaseCrud
             #endregion
 
             #region ürün güncelleme işlemi bitmedi yarım kaldı
-            SqlConnection connection = new SqlConnection("Data Source= RUMEYSA\\SQLEXPRESS; initial Catalog = c#DataBaseÖğrenme; integrated security=true");
-            connection.Open();
+            //SqlConnection connection = new SqlConnection("Data Source= RUMEYSA\\SQLEXPRESS; initial Catalog = c#DataBaseÖğrenme; integrated security=true");
+            //connection.Open();
 
-            SqlCommand cmd = new SqlCommand("select * From TblProduct", connection);
-            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
-            DataTable dataTable = new DataTable();
-            adapter.Fill(dataTable);
-
-
-            foreach (DataRow row in dataTable.Rows)
-            {
-                foreach (var item in row.ItemArray)
-                {
-                    Console.Write(item + " ");
-
-                }
-                Console.WriteLine();
-            }
-            Console.WriteLine();
+            //SqlCommand cmd = new SqlCommand("select * From TblProduct", connection);
+            //SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+            //DataTable dataTable = new DataTable();
+            //adapter.Fill(dataTable);
 
 
-            Console.Write("güncellemek itediğniz ürününün numarasını giriniz:");
-            int productId=int.Parse(Console.ReadLine());
+            //foreach (DataRow row in dataTable.Rows)
+            //{
+            //    foreach (var item in row.ItemArray)
+            //    {
+            //        Console.Write(item + " ");
 
-            Console.Write("güncellemek itediğniz ürününün ismini giriniz:");
-            string productName = Console.ReadLine();
-
-            Console.Write("güncellemek itediğniz ürününün fiyatını giriniz:");
-            int productPrice = int.Parse(Console.ReadLine());
-
-
-            SqlCommand command = new SqlCommand("Update TblProduct Where (ProductId,productName,productPrice) volues (@productId,@productNme,@productPrice)", connection);
-
-            command.Parameters.AddWithValue("@productId", productId);
-            command.Parameters.AddWithValue("@productName", productName);
-            command.Parameters.AddWithValue("@productPrice", productPrice);
-            command.ExecuteNonQuery();
+            //    }
+            //    Console.WriteLine();
+            //}
+            //Console.WriteLine();
 
 
+            //Console.Write("güncellemek itediğniz ürününün numarasını giriniz:");
+            //int productId=int.Parse(Console.ReadLine());
 
-            connection.Close();
+            //Console.Write("güncellemek itediğniz ürününün ismini giriniz:");
+            //string productName = Console.ReadLine();
 
-            Console.WriteLine("işlem başarıyla gerçekleşti");
+            //Console.Write("güncellemek itediğniz ürününün fiyatını giriniz:");
+            //int productPrice = int.Parse(Console.ReadLine());
+
+
+            //SqlCommand command = new SqlCommand("Update TblProduct Where (ProductId,productName,productPrice) volues (@productId,@productNme,@productPrice)", connection);
+
+            //command.Parameters.AddWithValue("@productId", productId);
+            //command.Parameters.AddWithValue("@productName", productName);
+            //command.Parameters.AddWithValue("@productPrice", productPrice);
+            //command.ExecuteNonQuery();
+
+
+
+            //connection.Close();
+
+            //Console.WriteLine("işlem başarıyla gerçekleşti");
 
             #endregion
 
