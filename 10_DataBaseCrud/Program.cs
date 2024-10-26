@@ -152,7 +152,7 @@ namespace _10_DataBaseCrud
 
             //connection.Close();
 
-            //Console.WriteLine("işlem başarıyla gerçekleşti");
+            //Console.WriteLine("işlem başarıyla gerçekleşti.");
 
             #endregion
 
