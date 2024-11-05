@@ -13,7 +13,7 @@ namespace _10_DataBaseCrud
         static void Main(string[] args)
         {
 
-            //  crud---> create delete read update ru
+            //  crud---> create delete read update rum
 
             #region katogori ekleme işlemi
             //Console.Write("eklemek istediğiniz katogori isminizi giriniz:");
