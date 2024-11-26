@@ -13,8 +13,7 @@ Dizileri nasıl listeleyebileceğimi öğrendim.
 Geriye değer döndüren ve geriye değer döndüremeyen metodları yani void ve return metodlarınını burada ele aldık.
 ## 🧩09_DataBaseProject
 Sql'i kurdum ve temel kullanımını öğrendim.c# la sql'i nasıl kullanabileceğime küçük bir giriş.
-
-##🧩10_DataBaseCrud
+## 🧩10_DataBaseCrud
 Burada temel SQL sorgu kodları
 
 
